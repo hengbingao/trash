@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-trash_dir="/group/ll010/hgao/trash"
+trash_dir="$MYGROUP/trash"
 
 if [[ $# -eq 0 ]]; then
     echo "Error: No files specified to move."
