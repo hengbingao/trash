@@ -1,6 +1,9 @@
 # trash
 To avoid to delet files occassionaly with rm -r 
 
+![trash files](https://github.com/hengbingao/trash/blob/main/png/trash.png)
+
+
 
 ## **Install**
 
