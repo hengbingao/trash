@@ -28,12 +28,19 @@ To avoid to delet files occassionaly with rm -r
     ```
 ## **Usage**
 
-1. move to trash:
+
+1. build trash files:
+
+    ```bash
+    mkdir -p $MYGROUP/trash 
+    ```
+
+2. move files to trash:
 
     ```bash
     trash_go Move specified files to $MYGROUP/trash 
     ```
-2. clean trash:
+3. clean trash:
 
     ```bash
     trash_clean Clean all files under $MYGROUP/trash 
