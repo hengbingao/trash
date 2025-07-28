@@ -7,7 +7,7 @@ show_help() {
     echo
     echo "Usage:"
     echo "  trash_go <files...>      Move specified files to /group/ll010/hgao/trash"
-    echo "  trash_clean             Remove all files under /group/ll010/hgao/trash"
+    echo "  trash_clean             Clean all files under /group/ll010/hgao/trash"
     echo "  trash -h|--help         Show this help message"
 }
 
