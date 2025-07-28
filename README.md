@@ -31,10 +31,10 @@ To avoid to delet files occassionaly with rm -r
 1. move to trash:
 
     ```bash
-    trash_go Move specified files to /group/ll010/hgao/trash 
+    trash_go Move specified files to $MYGROUP/trash 
     ```
 2. clean trash:
 
     ```bash
-    trash_clean Clean all files under /group/ll010/hgao/trash 
+    trash_clean Clean all files under $MYGROUP/trash 
     ```
