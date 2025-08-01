@@ -38,10 +38,10 @@ To avoid to delet files occassionaly with rm -r
 2. move files to trash:
 
     ```bash
-    trash_go Move specified files to $MYGROUP/trash 
+    trash go Move specified files to $MYGROUP/trash 
     ```
 3. clean trash:
 
     ```bash
-    trash_clean Clean all files under $MYGROUP/trash 
+    trash clean Clean all files under $MYGROUP/trash 
     ```
