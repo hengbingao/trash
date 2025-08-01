@@ -6,8 +6,8 @@ show_help() {
     echo "trash - Manage trash files"
     echo
     echo "Usage:"
-    echo "  trash_go <files...>      Move specified files to $MYGROUP/trash"
-    echo "  trash_clean             Clean all files under $MYGROUP/trash"
+    echo "  trash go <files...>      Move specified files to $MYGROUP/trash"
+    echo "  trash clean             Clean all files under $MYGROUP/trash"
     echo "  trash -h|--help         Show this help message"
 }
 
