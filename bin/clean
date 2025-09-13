@@ -1,21 +1,25 @@
 #!/usr/bin/env bash
 
+# 找到 src 目录
 script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")/../src" && pwd)"
 
+# 帮助信息
 show_help() {
-    echo "trash - Manage trash files"
+    echo "clean - Manage junk files"
     echo
     echo "Usage:"
-    echo "  trash go <files...>      Move specified files to $MYGROUP/trash"
-    echo "  trash clean             Clean all files under $MYGROUP/trash"
-    echo "  trash -h|--help         Show this help message"
+    echo "  clean go <files...>      Move specified files to \$MYGROUP/clean"
+    echo "  clean clean              Clean all files under \$MYGROUP/clean"
+    echo "  clean -h|--help          Show this help message"
 }
 
+# 如果没有参数，显示帮助
 if [[ $# -eq 0 ]]; then
     show_help
     exit 1
 fi
 
+# 判断子命令
 case $1 in
     go)
         shift
