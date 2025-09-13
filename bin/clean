@@ -9,7 +9,7 @@ show_help() {
     echo
     echo "Usage:"
     echo "  clean go <files...>      Move specified files to \$MYGROUP/clean"
-    echo "  clean clean              Clean all files under \$MYGROUP/clean"
+    echo "  clean all                Clean all files under \$MYGROUP/clean"
     echo "  clean -h|--help          Show this help message"
 }
 
@@ -25,7 +25,7 @@ case $1 in
         shift
         "$script_dir/trash_go.sh" "$@"
         ;;
-    clean)
+    all)
         "$script_dir/trash_clean.sh"
         ;;
     -h|--help)
