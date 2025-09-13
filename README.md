@@ -1,4 +1,4 @@
-# trash
+# clean
 To avoid to delet files occassionaly with rm -r 
 
 ![trash files](https://github.com/hengbingao/trash/blob/main/png/trash.png)
@@ -38,10 +38,10 @@ To avoid to delet files occassionaly with rm -r
 2. move files to trash:
 
     ```bash
-    trash go Move specified files to $MYGROUP/trash 
+    clean go Move specified files to $MYGROUP/trash 
     ```
 3. clean trash:
 
     ```bash
-    trash clean Clean all files under $MYGROUP/trash 
+    clean clean Clean all files under $MYGROUP/trash 
     ```
