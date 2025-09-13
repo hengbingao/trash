@@ -8,8 +8,8 @@ show_help() {
     echo "clean - Manage junk files"
     echo
     echo "Usage:"
-    echo "  clean go <files...>      Move specified files to \$MYGROUP/clean"
-    echo "  clean all                Clean all files under \$MYGROUP/clean"
+    echo "  clean go <files...>      Move specified files to \$MYGROUP/trash"
+    echo "  clean all                Clean all files under \$MYGROUP/trash"
     echo "  clean -h|--help          Show this help message"
 }
 
