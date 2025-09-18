@@ -1,7 +1,7 @@
 # clean
 To avoid to delet files occassionaly with rm -r 
 
-![trash files](https://github.com/hengbingao/trash/blob/main/png/trash.png)
+![trash files](https://github.com/hengbingao/trash/blob/main/png/clean.png)
 
 
 
@@ -40,8 +40,13 @@ To avoid to delet files occassionaly with rm -r
     ```bash
     clean go Move specified files to $MYGROUP/trash 
     ```
-3. clean trash:
+3. Restore files from trash:
 
     ```bash
-    clean clean Clean all files under $MYGROUP/trash 
+    clean back Restore files under $MYGROUP/trash 
+    ```
+4. clean bin:
+
+    ```bash
+    clean bin Clean all files under $MYGROUP/trash 
     ```
