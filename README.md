@@ -29,24 +29,24 @@ To avoid to delet files occassionaly with rm -r
 ## **Usage**
 
 
-1. build trash files:
+1. Build trash files:
 
     ```bash
     mkdir -p $MYGROUP/trash 
     ```
 
-2. move files to trash:
+2. Move files to trash:
 
     ```bash
-    clean go Move specified files to $MYGROUP/trash 
+    clean go files
     ```
 3. Restore files from trash:
 
     ```bash
-    clean back Restore files under $MYGROUP/trash 
+    clean back files
     ```
-4. clean bin:
+4. Clean trash forever:
 
     ```bash
-    clean bin Clean all files under $MYGROUP/trash 
+    clean bin  
     ```
